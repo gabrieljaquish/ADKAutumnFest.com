@@ -1,99 +1,75 @@
-<!doctype html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>2019 Autumn Festival</title>
-    <meta name="description" content="4th Annual Adirondack Autumn Festival | October 12th 2019 in Moriah, New York USA">
-    <meta name="author" content="Gabriel Jaquish">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <!--[if lt IE 9]>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-	<![endif]-->
-    <!--[if lte IE 8]>
-		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-	<![endif]-->
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <!--<![endif]-->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-    <style>
-        body {
-            line-height: 1.7em;
-            color: #000;
-            background-color: #ddd;
-            background: url("https://c1.staticflickr.com/1/567/21557692554_d923c532c6_o.jpg");
-            background-size: fill;
-            background-repeat: no-repeat;
-            font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-            text-shadow: 1px 1px 16px rgba(255, 255, 255, 0.8);
-            font-size: 34px;
-            text-align: center;
-            margin-top: 85px;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        label {
-            color: #fff;
-        }
-        
-        h1 {
-            text-transform: uppercase;
-        }
-        
-        #countdown {
-            line-height: 1.1em;
-        }
-    </style>
+    <title>2019 Adirondack Autumn Festival | 4th Annual Adirondack Autumn Festival in Moriah, NY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://www.firewatchgame.com/favicon.ico">
+    <title>Campo Santo - Firewatch</title>
+    <meta charset="utf-8">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@camposanto">
+    <meta name="twitter:site:id" content="1594071944">
+    <meta name="twitter:title" content="Firewatch, available for Windows, Nintendo Switch, PlayStation 4, Xbox One, Mac, and Linux">
+    <meta name="twitter:description" content="Firewatch is a first-person single-player mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio.">
+    <meta name="twitter:creator" content="@camposanto">
+    <meta name="twitter:creator:id" content="1594071944">
+
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="https://www.firewatchgame.com/images/badge.png">
+
+    <link rel="apple-touch-icon" href="images/appicon.png" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Firewatch: Out now for Windows, Nintendo Switch, PlayStation 4, Mac, and Linux" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.firewatchgame.com/" />
+    <meta property="og:image" content="http://www.firewatchgame.com/images/badge.png" />
+    <meta property="og:description" content="Firewatch is a first-person single-player mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio." />
+    <meta property="og:site_name" content="Firewatch" />
+
+    <link rel="stylesheet" href="css/firewatchlaunch.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="https://www.camposanto.com/css/camponav.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- H&FJ CLOUD.TYPOGRAPHY ENABLED for VERLAG -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7652892/657204/css/fonts.css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7635874/6351012/css/fonts.css" />
 </head>
 
 <body>
-    <div class="pure-g">
-        <div class="pure-u-1">
-            <h1>Stay tuned</h1>
-            <h2>Autumn Festival Registration Website Coming Soon!</h2>
-            <h3 id="countdown">
-                <span class="days">00</span>&nbsp;<span class="timeRefDays">days</span>
-                <span class="hours">00</span>&nbsp;<span class="timeRefHours">hours</span>
-                <span class="minutes">00</span>&nbsp;<span class="timeRefMinutes">minutes</span>
-                <span class="seconds">00</span>&nbsp;<span class="timeRefSeconds">seconds</span>
-            </h3>
-        </div>
-    </div>
 </body>
-<script>
-    /*
-     * Basic Count Down to Date and Time
-     * Author: @mrwigster / trulycode.com
-     *
-     * INFO: change the "date:"-value to your desired target date-time
-     */
-    ! function(a) {
-        a.fn.countdown = function(b, c) {
-            function d() {
-                eventDate = Date.parse(f.date) / 1e3, currentDate = Math.floor(a.now() / 1e3), eventDate <= currentDate && (c.call(this), clearInterval(interval)), seconds = eventDate - currentDate, days = Math.floor(seconds / 86400), seconds -= 60 * days * 60 * 24, hours = Math.floor(seconds / 3600), seconds -= 60 * hours * 60, minutes = Math.floor(seconds / 60), seconds -= 60 * minutes, 1 == days ? e.find(".timeRefDays").text("day") : e.find(".timeRefDays").text("days"), 1 == hours ? e.find(".timeRefHours").text("hour") : e.find(".timeRefHours").text("hours"), 1 == minutes ? e.find(".timeRefMinutes").text("minute") : e.find(".timeRefMinutes").text("minutes"), 1 == seconds ? e.find(".timeRefSeconds").text("second") : e.find(".timeRefSeconds").text("seconds"), "on" == f.format && (days = String(days).length >= 2 ? days : "0" + days, hours = String(hours).length >= 2 ? hours : "0" + hours, minutes = String(minutes).length >= 2 ? minutes : "0" + minutes, seconds = String(seconds).length >= 2 ? seconds : "0" + seconds), isNaN(eventDate) ? (alert("Invalid date. Example: 30 Tuesday 2013 15:50:00"), clearInterval(interval)) : (e.find(".days").text(days), e.find(".hours").text(hours), e.find(".minutes").text(minutes), e.find(".seconds").text(seconds))
-            }
-            var e = a(this),
-                f = {
-                    date: null,
-                    format: null
-                };
-            b && a.extend(f, b), d(), interval = setInterval(d, 1e3)
-        }
-    }(jQuery), $(document).ready(function() {
-        $("#countdown").countdown({
-            date: "12 October 2019 15:00:00",
-            format: "on"
-        })
-    });
-</script>
+<nav>
+    <!-- NAVBAR-->
+    <ul class="navbar-top">
+        <li id="nav-"><a href="http://www.camposanto.com"><strong>Autumn Festival</strong></a></li>
+        <li id="nav-rsvp"><a href="#RSVP"><strong><span class="collapse">RSVP</span><span class="reveal">Newsletter</span></strong></a></li>
+        <li id="nav-store"><a href="#ABOUT"><strong><span class="collapse">Campo </span>Store</strong></a></li>
+        <li id="nav-blog"><a href="#FAQ"><strong><span class="collapse">Development </span>Blog</strong></a></li>
+        <li id="nav-game"><a href="#CONTACT"><strong>Firewatch</strong></a></li>
+    </ul>
+
+</nav>
+<header>
+
+</header>
+<main>
+    <p>MAIN CONTENT</p>
+</main>
+
+<footer>
+    <div class="section copyright">
+        <p>&copy;<span id="year">2019</span> All Rights Reserved <a href="https://www.northernharvest.beer/" target="_blank">Northern Harvest Brewing Company, LLC</a></p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
 </html>
