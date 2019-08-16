@@ -5,6 +5,7 @@ function Parallax() {
     const moon = document.getElementById("title");
     const title = document.getElementById("title");
     const theSky = document.getElementById("TheSky");
+    const nav = document.getElementById("Nav");
 
     const height = window.screen.height;
 
@@ -30,9 +31,9 @@ function Parallax() {
             //Fade the sky in if were more than 40% scrolled down
             if ((Math.abs(position) / height) > 0.1) {
                 stars.setAttribute('style', 'opacity: ' + 100 + ';');
-                console.log("Bigga");
             }
         } else {
+            nav.setAttribute('style', 'display: inline-block;');
             title.setAttribute('style', "display: none;");
         }
 
