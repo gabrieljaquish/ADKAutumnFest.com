@@ -1,13 +1,17 @@
 /* Nav Bar */
 
 nav {
+    position: absolute;
+    height: 40px;
+    width: 100 vw;
     background-color: #210002;
     display: block;
-    padding-top: 0;
-    padding-bottom: 0;
+    top: 0;
+    padding: 0;
     margin: 0;
-    transition: top 300ms;
-    display: none !important;
+    transition: 300ms;
+    z-index: 10;
+    line-height: 40px;
 }
 
 nav a {
@@ -42,6 +46,12 @@ nav ul li a:hover {
     color: #ffaf00;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.nav-up {
+    /* used to hide the Nav bar before scrolling */
+    top: -40px;
+    transition: 300ms;
 }
 
 

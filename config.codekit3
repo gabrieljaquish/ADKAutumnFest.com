@@ -97,6 +97,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/stars-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/stars-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/stars.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/stars-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dev/css/autumnfest-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -470,6 +490,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo-1400.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/logo-1400.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-300x370.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/logo-300x370.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/Logo-Small.png": {
+		"ft": 32768,
+		"iS": 7597,
+		"oA": 0,
+		"oAP": "/images/Logo-Small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/moon-small.png": {
 		"ft": 32768,
 		"iS": 28159,
@@ -497,6 +550,17 @@
 		"iS": 550631,
 		"oA": 0,
 		"oAP": "/images/no-parallax.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/small-logo.png": {
+		"ft": 32768,
+		"iS": 13557,
+		"oA": 0,
+		"oAP": "/images/small-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -581,6 +645,194 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/text/NationalPark.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark.zip",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Heavy.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Heavy.otf",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Heavy.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Heavy.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Heavy.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Heavy.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Outline.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Outline.otf",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Outline.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Outline.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Outline.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Outline.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Regular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Regular.otf",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Regular.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Regular.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Thin.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Thin.otf",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Thin.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/NationalPark-Thin.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/NationalPark-Thin.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/text/NationalPark/webfonts/NationalPark-Heavy.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Heavy.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Heavy.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Heavy.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Outline.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Outline.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Outline.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Outline.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Regular.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Regular.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Thin.woff",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/NationalPark-Thin.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/NationalPark-Thin.woff2",
+		"oF": 0
+		},
+	"/text/NationalPark/webfonts/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/text/NationalPark/webfonts/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [

@@ -1,4 +1,5 @@
 function Parallax() {
+    // This Javascrtipt is inspired by that used on https://www.firewatchgame.com/
 
     const layers = document.getElementsByClassName("parallax");
     const stars = document.getElementById("TheStars");
@@ -30,7 +31,7 @@ function Parallax() {
 
             //Fade the sky in if were more than 40% scrolled down
             if ((Math.abs(position) / height) > 0.1) {
-                stars.setAttribute('style', 'opacity: ' + 100 + ';');
+                stars.setAttribute('style', 'opacity: ' + 100);
             }
         } else {
             nav.setAttribute('style', 'display: inline-block;');
@@ -40,7 +41,56 @@ function Parallax() {
     });
 }
 
-document.body.onload = Parallax();
+function noParallax() {
+    document.getElementById("noparallax").setAttribute('display', 'none');
+    document.getElementById("parallax").setAttribute('display', 'none');
+
+}
+
+function castSmoothScroll() {
+    $.srSmoothscroll({
+        step: 80,
+        speed: 300,
+        ease: 'linear'
+    });
+}
+
+function startSite() {
+
+    var platform = navigator.platform.toLowerCase();
+
+    if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
+        dispelParallax().srSmoothscroll();
+    } else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
+        castParallax();
+        if ($.browser.webkit) {
+            castSmoothScroll();
+        }
+    } else {
+        castParallax();
+    }
+
+}
+
+function toParallax_or_nottoParallax() {
+
+    const platform = navigator.platform.toLowerCase();
+
+    /* Parallax doesn't load on iphone for some reason, so disable it */
+    if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
+        noParallax().srSmoothscroll();
+    } else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
+        Parallax();
+
+        if ($.browser.webkit) {
+            castSmoothScroll();
+        }
+    } else {
+        Parallax();
+    }
+}
+
+document.body.onload = toParallax_or_nottoParallax();
 
 
 /*
@@ -93,6 +143,7 @@ function castParallax() {
 
 
 
+
 function dispelParallax() {
     $("#nonparallax").css('display', 'block');
     $("#parallax").css('display', 'none');
@@ -107,11 +158,6 @@ function castSmoothScroll() {
 }
 
 
-function noParallax() {
-    document.getElementById("noparallax").setAttribute('display', 'none');
-    document.getElementById("parallax").setAttribute('display', 'none');
-
-}
 
 
 
@@ -124,6 +170,7 @@ function toParallax_or_nottoParallax() {
         Parallax();
     }
 }
+
 
 
 function startSite() {
@@ -142,5 +189,4 @@ function startSite() {
     }
 
 }
-
 */
