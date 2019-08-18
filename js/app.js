@@ -55,23 +55,6 @@ function castSmoothScroll() {
     });
 }
 
-function startSite() {
-
-    var platform = navigator.platform.toLowerCase();
-
-    if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
-        dispelParallax().srSmoothscroll();
-    } else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
-        castParallax();
-        if ($.browser.webkit) {
-            castSmoothScroll();
-        }
-    } else {
-        castParallax();
-    }
-
-}
-
 function toParallax_or_nottoParallax() {
 
     const platform = navigator.platform.toLowerCase();

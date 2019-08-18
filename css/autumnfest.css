@@ -27,6 +27,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     background-color: #610e04;
     color: #ffaf00;
     font-weight: 300;
