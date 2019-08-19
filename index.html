@@ -41,7 +41,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/autumnfest-min.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="css/nav-min.css" type="text/css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/header-min.css" type="text/css" media="screen" charset="utf-8">
 
     <!-- Javascript that handles the scrolling Mountains and sky transition-->
@@ -50,7 +49,7 @@
 
 <body>
     <!-- Bootstrap NAVBAR-->
-    <nav class="navbar navbar-expand-lg" role="navigation">
+    <nav class="navbar navbar-expand-lg nav" id="nav" role="navigation">
         <a class="navbar-brand" href="#TOP">
             <!--img src="./images/Logo-Small.png" height="30" alt="Adk Autumn Fest Logo"-->
             Autumn Festival
@@ -197,14 +196,14 @@
                     <div class="col-md-6">
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                                <h3 class="mb-0">Featured post</h3>
+                                <strong class="d-inline-block mb-2 text-primary">Camping</strong>
+                                <h3 class="mb-0">Motorhome</h3>
                                 <div class="mb-1 text-muted">Nov 12</div>
                                 <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                                 <a href="#" class="stretched-link">Continue reading</a>
                             </div>
                             <div class="col-auto d-none d-lg-block">
-                                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                <img src="" alt="">
                             </div>
                         </div>
                     </div>
@@ -238,19 +237,68 @@
         </section>
         <section id="EVENTS">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Make It a Weekend</h2>
-                        <h4>Other Things To Do</h4>
+                <div class="row mb-2">
+                    <div class="col-12">
+                        <h2>Other ADK Events</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul>
-                            <li><a href="">Gore Mountain Oktoberfest</a></li>
-                            <li></li>
-                        </ul>
+
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-muted">Oktoberfest</strong>
+                                <h3 class="mb-0">Lake George Village Oktoberfest</h3>
+                                <div class="mb-1 text-muted">Oct 11 - 13</div>
+                                <p class="card-text mb-auto">Lake George Village Oktoberfest and Fall Festival on Friday, October 11th, 2019 through Sunday October 13th on Canada Street across from Shepard Park.</p>
+                                <a href="https://lakegeorgeoktoberfest.com/lake-george-octoberfest/" class="stretched-link">More Info</a>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-muted">Oktoberfest</strong>
+                                <h3 class="mb-0">Whiteface Mountain Oktoberfest</h3>
+                                <div class="mb-1 text-muted">Sept 28 - 29</div>
+                                <p class="card-text mb-auto">Each fall we dust off our lederhosen, fire up the oompah band and enjoy a tall mug of German beer at the Whiteface Mountain Oktoberfest.</p>
+                                <a href="https://www.whiteface.com/events/oktoberfest" class="stretched-link">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-muted">Oktoberfest</strong>
+                                <h3 class="mb-0">Trapp Family Lodge Oktoberfest</h3>
+                                <div class="mb-1 text-muted">Sept 21</div>
+                                <p class="card-text mb-auto">Trapp Family Lodge and von Trapp Brewing invite you to the 10th Annual Oktoberfest</p>
+                                <a href="https://www.trappfamily.com/oktoberfest.htm" class="stretched-link">More Info</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-muted">Harvest Fest</strong>
+                                <h3 class="mb-0">Gore Mountain Harvest Fest</h3>
+                                <div class="mb-1 text-muted">Oct 12 - 13</div>
+                                <p class="card-text mb-auto">Live Music, Craft Beer, Scenic Gondola Rides, Downhill Mountain Biking &amp; Hiking</p>
+                                <a href="https://www.goremountain.com/events/gore-mountain-harvest-fest" class="stretched-link">More Info</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -323,8 +371,6 @@
         </footer>
         <!-- END FOOTER -->
     </main>
-
-
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

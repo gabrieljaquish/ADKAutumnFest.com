@@ -53,6 +53,55 @@ h5 {
     font-family: "National Park Regular";
 }
 
+
+/* Nav Bar */
+
+.nav {
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+    background-color: #210002;
+    z-index: 4;
+    transition: 300ms;
+}
+
+.nav a {
+    color: #ffaf00;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+.nav a:hover {
+    color: #ff7000;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav ul li a {
+    display: block;
+    color: #ffaf00;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #410002;
+    color: #ffaf00;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* END Nav Bar */
+
 main {
     position: absolute;
     top: 100vh;

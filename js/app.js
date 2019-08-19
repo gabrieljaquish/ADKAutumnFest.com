@@ -2,14 +2,9 @@ function Parallax() {
     // This Javascrtipt is inspired by that used on https://www.firewatchgame.com/
 
     const layers = document.getElementsByClassName("parallax");
-    const stars = document.getElementById("TheStars");
-    const moon = document.getElementById("title");
-    const title = document.getElementById("title");
-    const theSky = document.getElementById("TheSky");
-    const nav = document.getElementById("Nav");
+
 
     const height = window.screen.height;
-
     var currentLayer, layerSpeed;
 
     window.addEventListener("scroll", function() {
@@ -27,15 +22,12 @@ function Parallax() {
                 currentLayer.setAttribute('style', 'transform: translate(0px, ' + ((position * layerSpeed) / 100) + 'px');
             }
 
-            theSky.style.opacity = 1 - percentScroll;
+            //Hide Navbar
+            nav.style.top = "-40px;"
 
-            //Fade the sky in if were more than 40% scrolled down
-            if ((Math.abs(position) / height) > 0.1) {
-                stars.setAttribute('style', 'opacity: ' + 100);
-            }
         } else {
-            nav.setAttribute('style', 'display: inline-block;');
-            title.setAttribute('style', "display: none;");
+            //Show Navbar
+            nav.className = "0px";
         }
 
     });
@@ -55,7 +47,7 @@ function castSmoothScroll() {
     });
 }
 
-function toParallax_or_nottoParallax() {
+function toParallax_or_notToParallax() {
 
     const platform = navigator.platform.toLowerCase();
 
@@ -73,7 +65,7 @@ function toParallax_or_nottoParallax() {
     }
 }
 
-document.body.onload = toParallax_or_nottoParallax();
+document.window.onload = toParallax_or_notToParallax();
 
 
 /*

@@ -627,6 +627,39 @@
 		"oAP": "/LICENSE",
 		"oF": 0
 		},
+	"/Photos/fire1.jpg": {
+		"ft": 16384,
+		"iS": 486212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Photos/fire1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Photos/latenight-fire.jpg": {
+		"ft": 16384,
+		"iS": 192175,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Photos/latenight-fire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Photos/tractor2.jpg": {
+		"ft": 16384,
+		"iS": 688333,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Photos/tractor2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
