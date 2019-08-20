@@ -578,6 +578,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/Photos/cassie-and-mike.jpg": {
+		"ft": 16384,
+		"iS": 54985,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/cassie-and-mike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/Photos/FamilyDinnerCrew1.jpeg": {
+		"ft": 16384,
+		"iS": 1511212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/FamilyDinnerCrew1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/Photos/fire1.jpg": {
 		"ft": 16384,
 		"iS": 486212,
@@ -606,6 +628,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/Photos/latenight-fire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/Photos/latenight-fire2.jpg": {
+		"ft": 16384,
+		"iS": 371831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/latenight-fire2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
