@@ -16,7 +16,7 @@ function Parallax() {
             }
 
             //Hide Navbar
-            document.getElementById("nav").style.top = "-40px";
+            document.getElementById("nav").style.top = "-60px";
 
         } else {
             //Show Navbar
