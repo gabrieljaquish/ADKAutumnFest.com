@@ -2,48 +2,41 @@ function Parallax() {
     // This Javascrtipt is inspired by that used on https://www.firewatchgame.com/
 
     const layers = document.getElementsByClassName("parallax");
-
-
     const height = window.screen.height;
     var currentLayer, layerSpeed;
 
     window.addEventListener("scroll", function() {
-
-        // Get Current Scroll Position
-        let position = this.pageYOffset;
-        let percentScroll = Math.abs(position) / height;
-
         // if current scroll position is greater than viewport height, otherwise don't run
-        if (Math.abs(position) <= height) {
+        if (Math.abs(this.pageYOffset) < height) {
             //iterate thru all layers moving each
             for (let i = 0; i < layers.length; i++) {
                 currentLayer = layers[i];
                 layerSpeed = currentLayer.getAttribute('data-speed');
-                currentLayer.setAttribute('style', 'transform: translate(0px, ' + ((position * layerSpeed) / 100) + 'px');
+                currentLayer.setAttribute('style', 'transform: translate(0px, ' + ((this.pageYOffset * layerSpeed) / 100) + 'px');
             }
 
             //Hide Navbar
-            nav.style.top = "-40px;"
+            document.getElementById("nav").style.top = "-40px";
 
         } else {
             //Show Navbar
-            nav.className = "0px";
+            document.getElementById("nav").style.top = "0px";
         }
 
     });
 }
 
 function noParallax() {
-    document.getElementById("noparallax").setAttribute('display', 'none');
+    document.getElementById("no-parallax").setAttribute('display', 'block');
     document.getElementById("parallax").setAttribute('display', 'none');
 
 }
 
-function castSmoothScroll() {
-    $.srSmoothscroll({
-        step: 80,
-        speed: 300,
-        ease: 'linear'
+function SmoothScroll() {
+    this.srSmoothscroll({
+        step: 50,
+        speed: 100,
+        ease: swing
     });
 }
 
@@ -53,12 +46,12 @@ function toParallax_or_notToParallax() {
 
     /* Parallax doesn't load on iphone for some reason, so disable it */
     if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
-        noParallax().srSmoothscroll();
+        noParallax().Smoothscroll();
     } else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
         Parallax();
 
         if ($.browser.webkit) {
-            castSmoothScroll();
+            SmoothScroll();
         }
     } else {
         Parallax();

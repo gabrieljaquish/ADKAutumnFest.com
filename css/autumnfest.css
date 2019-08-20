@@ -58,11 +58,13 @@ h5 {
 
 .nav {
     position: fixed;
+    top: -40px;
     width: 100vw;
     height: 40px;
     background-color: #210002;
     z-index: 4;
-    transition: 300ms;
+    transition: 500ms;
+    transition-duration: 500ms;
 }
 
 .nav a {
