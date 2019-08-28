@@ -30,9 +30,7 @@ function Parallax() {
 
 function noParallax() {
     document.getElementById("no-parallax").style.display = "block";
-
     document.getElementById("parallax-header").style.display = "none";
-    console.log("This is an iphone, hiding the parallax layers");
 }
 
 function SmoothScroll() {
