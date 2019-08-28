@@ -5,6 +5,8 @@ function Parallax() {
     const height = window.screen.height;
     var currentLayer, layerSpeed;
 
+    document.getElementById("parallax-header").style.display = "none";
+
     window.addEventListener("scroll", function() {
         // if current scroll position is greater than viewport height, otherwise don't run
         if (Math.abs(this.pageYOffset) < height) {
@@ -29,10 +31,8 @@ function Parallax() {
 function noParallax() {
     document.getElementById("no-parallax").style.display = "block";
 
-    const layers = document.getElementsByClassName("parallax");
-    for (let i = 0; i < layers.length; i++) {
-        layers[i].style.display = "none";
-    }
+    document.getElementById("parallax-header").style.display = "none";
+    console.log("This is an iphone, hiding the parallax layers");
 }
 
 function SmoothScroll() {
