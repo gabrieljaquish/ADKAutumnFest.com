@@ -45,19 +45,13 @@ function SmoothScroll() {
 
 function toParallax_or_notToParallax() {
 
-    const platform = navigator.platform.toLowerCase();
+    const iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
     /* Parallax doesn't load on iphone for some reason, so disable it */
-    if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
-        noParallax().Smoothscroll();
-    } else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
-        Parallax();
-
-        if ($.browser.webkit) {
-            SmoothScroll();
-        }
+    if (iOS) {
+        noParallax().SmoothScroll();
     } else {
-        Parallax();
+        Parallax().SmoothScroll();
     }
 }
 
