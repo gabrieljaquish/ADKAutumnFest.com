@@ -5,7 +5,7 @@ function Parallax() {
     const height = window.screen.height;
     var currentLayer, layerSpeed;
 
-    document.getElementById("parallax-header").style.display = "none";
+    document.getElementById('no-parallax').style.display = "none";
 
     window.addEventListener("scroll", function() {
         // if current scroll position is greater than viewport height, otherwise don't run
@@ -50,9 +50,10 @@ function toParallax_or_notToParallax() {
     /* Parallax doesn't load on iphone for some reason, so disable it */
     if (iOS) {
         noParallax().SmoothScroll();
+        console.log("its an iphone!");
     } else {
-        Parallax().SmoothScroll();
+        Parallax();
     }
 }
 
-document.window.onload = toParallax_or_notToParallax();
+window.onload = toParallax_or_notToParallax();
