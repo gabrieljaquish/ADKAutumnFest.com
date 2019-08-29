@@ -841,9 +841,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/no-parallax.png": {
+	"/images/no-parallax-color.png": {
 		"ft": 32768,
 		"iS": 550631,
+		"oA": 0,
+		"oAP": "/images/no-parallax-color.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/no-parallax.png": {
+		"ft": 32768,
+		"iS": 582605,
 		"oA": 0,
 		"oAP": "/images/no-parallax.png",
 		"oF": 0,
@@ -874,6 +885,44 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/Photos/bar.HEIC": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/bar.HEIC",
+		"oF": 0
+		},
+	"/images/Photos/bar.jpg": {
+		"ft": 16384,
+		"iS": 3539918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/bar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/Photos/bar_small.jpg": {
+		"ft": 16384,
+		"iS": 305767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/bar_small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/Photos/cassie-and-mike.jpf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/cassie-and-mike.jpf",
+		"oF": 0
+		},
 	"/images/Photos/cassie-and-mike.jpg": {
 		"ft": 16384,
 		"iS": 54985,
@@ -882,7 +931,7 @@
 		"oAP": "/images/Photos/cassie-and-mike.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/Photos/FamilyDinnerCrew1.jpeg": {
@@ -915,7 +964,51 @@
 		"oAP": "/images/Photos/Fire2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/Photos/Fire2_small.jpg": {
+		"ft": 16384,
+		"iS": 269369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/Fire2_small.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/Photos/fire3.jpg": {
+		"ft": 16384,
+		"iS": 348931,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/fire3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/Photos/fire3.png": {
+		"ft": 32768,
+		"iS": 2798371,
+		"oA": 0,
+		"oAP": "/images/Photos/fire3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/Photos/fire3_small.jpg": {
+		"ft": 16384,
+		"iS": 84708,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Photos/fire3_small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/Photos/latenight-fire.jpg": {
@@ -937,7 +1030,7 @@
 		"oAP": "/images/Photos/latenight-fire2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/Photos/Party11.jpg": {

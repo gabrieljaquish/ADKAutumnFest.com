@@ -127,7 +127,21 @@
     </header>
 
     <!-- This no parallax header is ONLY shown on iPhone and iPad which dont load the interactive header and kind of suck.-->
-    <div class="no-parallax-header" id="no-parallax"></div>
+    <div id="no-parallax">
+        <div class="TheSky" id="TheSky"></div>
+        <div class="container-fluid parallax" data-speed="200" id="title">
+            <div class="row">
+                <br>
+            </div>
+            <div class="row title">
+                <div class="col-12">
+                    <h4>The 4<sup>th</sup> Annual</h4>
+                    <h1>Autumn Festival</h1>
+                </div>
+            </div>
+        </div>
+        <img src="./images/no-parallax.png" class="no-parallax">
+    </div>
     <!-- END HEADER -->
 
     <main id="main">
@@ -226,7 +240,7 @@
                             Camping is a safe and convenient way to enjoy the evening festivities without the hassle of finding a designated driver.
                         </p>
                         <p>
-                            As a reward for being responsible, we cook up a pile of breakfast sandwiches and host a camp style breakfast around the fire Sunday morning, complete with gallons of percolator coffee.
+                            As a reward for being responsible, we cook up a camp style breakfast around the fire Sunday morning, complete with gallons of percolator coffee.
                         </p>
                         <p>
                             Tents, Motorhomes, and Campers are welcome, just be sure to let us know your staying and how much room you need via the RSVP form above.
@@ -260,64 +274,31 @@
 
         <section id="HOTELS">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2>Other Places To Stay</h2>
-                        <p>Camping not your thing? Heres a list of some other options, most are locally owned and operated.</p>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Edgemont B&amp;B</a></li>
+                    <li><a data-toggle="tab" href="#menu2">The Village Inn</a></li>
+                    <li><a data-toggle="tab" href="#menu3">The Sugar Hill Inn</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <h3>Menu 3</h3>
+                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     </div>
                 </div>
-                <div class="row my-4">
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>The Village Inn</h4>
-                        <h6>3.4 Miles</h6>
-                        <h6>Port Henry, NY</h6>
-                        <p>
-                            <a href="http://villageinnandredbrickcafe.us/village-inn" target="_blank">Website</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>Edgemont B and B</h4>
-                        <h6>3.5 Miles</h6>
-                        <h6>Port Henry, NY</h6>
-                        <p>
-                            <a href="https://www.edgemontbandb.com/" target="_blank">Website</a>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>Sugar Hill Manor</h4>
-                        <h6>10.8 Miles</h6>
-                        <h6>Crown Point, NY</h6>
-                        <p>
-                            <a href="http://www.sugarhillmanor.com/" target="_blank">Website</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>The Westport Hotel</h4>
-                        <h6>12.9 Miles</h6>
-                        <h6>Westport, NY</h6>
-                        <p>
-                            <a href="http://westporthoteltavern.com/" target="_blank">Website</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>Snow Goose B&amp;B</h4>
-                        <h6>19.6 Miles</h6>
-                        <h6>Keene Valley, NY</h6>
-                        <p>
-                            <a href="https://www.thesnowgoose.com/" target="_blank">Website</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 text-center">
-                        <h4>Best Western Plus</h4>
-                        <h6>15.1 Miles</h6>
-                        <h6>Ticonderoga, NY</h6>
-                        <p>
-                            <a href="https://www.bestwestern.com/en_US/book/ticonderoga/hotel-rooms/best-western-plus-ticonderoga-inn-suites/propertyCode.33138.html" target="_blank">Website</a>
-                        </p>
-                    </div>
-                </div>
-
             </div>
         </section>
 
@@ -332,10 +313,10 @@
                         <iframe width="100%" height="650px" src="https://www.youtube-nocookie.com/embed/wKgVCo8waFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-6 col-sm-8 text-center my-3">
-                        <img src="images/Photos/latenight-fire.jpg" width="100%" height="100%">
+                        <img src="images/Photos/tractor2.jpg" width="100%" height="100%">
                     </div>
                     <div class="col-lg-6 col-sm-8 text-center my-3">
-                        <img src="images/Photos/fire1.jpg" width="100%" height="100%">
+                        <img src="images/Photos/bar_small.jpg" width="100%" height="100%">
                     </div>
                     <div class="col-lg-6 col-sm-8 text-center my-3">
                         <img src="images/Photos/Band1.jpg" width="100%" height="100%">
@@ -344,10 +325,16 @@
                         <img src="images/Photos/Party11.jpg" width="100%" height="100%">
                     </div>
                     <div class="col-lg-6 col-sm-8 text-center my-3">
-                        <img src="images/Photos/tractor2.jpg" width="100%" height="100%">
+                        <img src="images/Photos/fire1.jpg" width="100%" height="100%">
                     </div>
                     <div class="col-lg-6 col-sm-8 text-center my-3">
                         <img src="images/Photos/cassie-and-mike.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="col-lg-6 col-sm-8 text-center my-3">
+                        <img src="images/Photos/fire3_small.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="col-lg-6 col-sm-8 text-center my-3">
+                        <img src="images/Photos/latenight-fire.jpg" width="100%" height="100%">
                     </div>
                 </div>
             </div>

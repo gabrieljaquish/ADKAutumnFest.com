@@ -47,7 +47,7 @@ function toParallax_or_notToParallax() {
 
     /* Parallax doesn't load on iphone for some reason, so disable it */
     if (iOS) {
-        noParallax().SmoothScroll();
+        noParallax();
         console.log("its an iphone!");
     } else {
         Parallax();
