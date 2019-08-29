@@ -1044,6 +1044,17 @@
 		"oAP": "/LICENSE",
 		"oF": 0
 		},
+	"/no-parallax.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/no-parallax.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
