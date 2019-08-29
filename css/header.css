@@ -6,7 +6,11 @@
  }
  
  .no-parallax-header {
+     position: absolute;
+     height: 100vh;
+     width: 100vw;
      background-image: url('../images/no-parallax.png');
+     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -14,8 +18,8 @@
  
  .parallax {
      position: absolute;
-     height: 100%;
-     width: 100%;
+     height: 100vh;
+     width: 100vw;
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
