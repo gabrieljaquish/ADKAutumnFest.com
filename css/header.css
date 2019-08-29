@@ -18,10 +18,10 @@
      position: absolute;
      height: 100vh;
      min-width: 100vw;
-     background-image: url("../images/no-parallax.png");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     background-image: url("../images/no-parallax.png");
  }
  
  .parallax {
