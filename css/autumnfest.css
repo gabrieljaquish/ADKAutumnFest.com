@@ -32,7 +32,6 @@ html {
     color: #ffaf00;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
     line-height: 1;
     overflow-x: hidden;
 }
@@ -57,21 +56,23 @@ h5 {
 
 .nav {
     position: fixed;
+    top: 0;
     width: 100vw;
     background-color: #210002;
-    z-index: 4;
     transition: 500ms;
     transition-duration: 500ms;
+    z-index: 4;
 }
 
-.nav-hide {
-    top: -100px;
+.navbar-brand {
+    font-size: 1.25rem;
 }
 
 .nav a {
     color: #ffaf00;
     transition: 500ms;
     transition-duration: 500ms;
+    text-decoration: none;
 }
 
 .nav a:hover {
@@ -95,11 +96,17 @@ h5 {
     text-decoration: none;
 }
 
-.nav ul li a:hover {
-    background-color: #410002;
+.nav-hamburger i {
     color: #ffaf00;
-    border-radius: 10px;
+    transition: 500ms;
+    transition-duration: 500ms;
     text-decoration: none;
+}
+
+.nav-hamburger i:hover {
+    color: #ff7000;
+    transition: 500ms;
+    transition-duration: 500ms;
 }
 
 

@@ -56,6 +56,10 @@ body {
     z-index: 4;
 }
 
+.navbar-brand {
+    font-size: 1em;
+}
+
 .nav a {
     color: #ffaf00;
     transition: 500ms;
@@ -82,6 +86,19 @@ body {
     color: #ffaf00;
     text-align: center;
     text-decoration: none;
+}
+
+.nav-hamburger i {
+    color: #ffaf00;
+    transition: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+.nav-hamburger i:hover {
+    color: #ff7000;
+    transition: 500ms;
+    transition-duration: 500ms;
 }
 
 
@@ -129,7 +146,6 @@ footer {
     line-height: 20px;
 }
 
-// FAQ
 .faq-nav {
     flex-direction: column;
     margin: 0 0 32px;
@@ -168,7 +184,6 @@ footer {
     }
 }
 
-// TAB CONTENT
 .tab-content {
     box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
     .card {
@@ -209,11 +224,10 @@ footer {
     }
 }
 
-// BORDER FIX
 .accordion {
     >.card {
         &:not(:first-child) {
-            border-top: 0;
+            border-top: 1px solid rgba(0, 0, 0, .125);
         }
     }
 }
