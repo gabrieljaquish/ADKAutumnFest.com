@@ -108,3 +108,9 @@
      color: rgb(241, 117, 0);
      text-shadow: 1px 1px 1px black;
  }
+ 
+ main {
+     position: absolute;
+     top: 100vh;
+     /* this allows the section to sit below the header */
+ }

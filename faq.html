@@ -39,125 +39,215 @@
     <meta property="og:site_name" content="AdkAutumnFest" />
 
     <!-- Stylesheets -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/autumnfest-min.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="css/nav-min.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="css/header-min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/faq-min.css" type="text/css" media="screen" charset="utf-8">
 
-    <!-- Javascript that handles the scrolling Mountains and sky transition-->
-    <script src="js/app-min.js"></script>
 </head>
 
 <body>
-    <!-- Bootstrap NAVBAR-->
-    <nav class="navbar navbar-expand-lg" role="navigation">
-        <a class="navbar-brand" href="#TOP">
-            <!--img src="./images/Logo-Small.png" height="30" alt="Adk Autumn Fest Logo"-->
-            Autumn Festival
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse float-right" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html#TOP">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html#ABOUT">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html#RSVP">RSVP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#CAMPING">Camping</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html#CONTACT">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg nav" id="nav">
+        <a class="navbar-brand" href="./index.html#TOP">Autumn Festival</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="./index.html#TOP">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./index.html#ABOUT">About</a>
+                <a class="nav-item nav-link" href="./index.html#RSVP">RSVP</a>
+                <a class="nav-item nav-link" href="./index.html#CAMPING">Camping</a>
+                <a class="nav-item nav-link" href="./faq.html">FAQ</a>
+                <a class="nav-item nav-link" href="https://store.adkautumnfest.com">Store</a>
+                <a class="nav-item nav-link" href="./index.html#Contact">Contact</a>
+            </div>
         </div>
     </nav>
+
     <main id="main" class="container">
-        <!-- BEGIN FAQ -->
-        <section id="FAQ" class="accordion-section clearfix mt-3" aria-label="FAQ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="text-center">Frequently Asked Questions</h2>
-                    </div>
+        <div class="container" id="FAQ">
+            <div class="row">
+                <div class="col-12">
+                    <h1>FAQ</h1>
+                    <h6>Answers To Our Most Frequently Asked Questions</h6>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                                <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                                              What is the Autumn Festival?
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                    <div class="panel-body px-3 mb-4">
-                                        <p></p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="tab-content" id="faq-tab-content">
+                        <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                            <div class="accordion" id="accordion-tab-1">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">
+                                                Where is the party held?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-1-content-1" aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>The Autumn Festival is held in a 7 acre field in Moriah, NY.</p>
+                                            <p>Moriah is nestled in between the Adirondack High Peaks and Lake Champlain.</p>
+                                            <p>
+                                                GPS Address:<br>
+                                                <a href="https://goo.gl/maps/uFTp1UGck8N75aun6" target="_blank">2713 Center Road<br> Moriah, NY 12960<br></a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-11">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-11" aria-expanded="false" aria-controls="accordion-tab-1-content-11">
+                                                Can I Bring My Friends?
+                                                </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-11" aria-labelledby="accordion-tab-1-heading-11" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                The Autumn Festival isn't open to the general public (at least not yet) but you are more than welcome to bring any of your friends.
+                                            </p>
+                                            <p>
+                                                Just be sure to <a href="./index.html#RSVP">RSVP</a> for the number of people joining you or have them <a href="./index.html#RSVP">RSVP</a> themselves.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-2">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">Is this event Family Friendly?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-2" aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                Absolutely. The Event begins around 3 PM with families children of all ages in attendance.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-3">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">People Camp On-Site?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-3" aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                              Why do you throw it?
-                                            </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-                                    <div class="panel-body px-3 mb-4">
-                                        <p>Because its fun.</p>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                                              Can I Bring My Kids?
-                                            </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                                    <div class="panel-body px-3 mb-4">
-                                        <p>Yes, this is a family friendly event.</p>
-                                    </div>
-                                </div>
-                            </div>
+                                                Many attendees camp on site for the night. We ENCOURAGE you to camp as well! Just let us know via the RSVP form above if you will be camping, how many people are camping with you, and what you are staying in!
+                                            </p>
+                                            <p>
+                                                Fall in the Adirondacks can get very chilly at night, so be sure to bring lots of warm clothes and blankets.
+                                            </p>
+                                            <p>
+                                                We do not offer power, water, or sewer hookups for those in campers. The field can also be unlevel in spots, so be sure to have a method of leveling your camper for the evening.
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                                              Can I Bring My Dog?
-                                            </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                    <div class="panel-body px-3 mb-4">
-                                        <p>Yes, as long as your dog is friendly, good in large crowds, and doesn't mind live music.</p>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-6">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-6" aria-expanded="false" aria-controls="accordion-tab-1-content-6">
+                                                Why Do You Do This?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-6" aria-labelledby="accordion-tab-1-heading-6" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                Because it's fun.
+                                            </p>
+                                            <p>
+                                                We love the fall, craft beer, and making others happy. This party lets us enjoy all three.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-7">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-7" aria-expanded="false" aria-controls="accordion-tab-1-content-7">
+                                                    Can I Bring My Dog?
+                                                </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-7" aria-labelledby="accordion-tab-1-heading-7" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                Sure! We Love Dogs!
+                                            </p>
+                                            <p>
+                                                As long as your furry friend is friendly, likes live music, and is ok with large crowds bring them along!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-8">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-8" aria-expanded="false" aria-controls="accordion-tab-1-content-8">
+                                            What Should I Wear?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-8" aria-labelledby="accordion-tab-1-heading-8" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                Autumn in the Adirondacks can be unpredictable, we have had years with temps at 78&deg; F and years at 38&deg; F. We suggest dressing in a few layers so you can stay comfortable as temps change throughout the day.
+                                            </p>
+                                            <p>
+                                                Fall Flannels are a favorite of ours and our attendees alike.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-9">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-9" aria-expanded="false" aria-controls="accordion-tab-1-content-9">
+                                                What If I Am Gluten Free?
+                                                </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-9" aria-labelledby="accordion-tab-1-heading-9" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                We always are sure to have gluten free food an beverage options and dedicate one of our draft lines to Gluten Free <a href="http://www.ninepincider.com/index.html">Nine Pin Signature Cider</a>. (Which we
+                                                love)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-10">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-10" aria-expanded="false" aria-controls="accordion-tab-1-content-10">
+                                            Is The Beer Really Free?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-10" aria-labelledby="accordion-tab-1-heading-10" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>
+                                                Yes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-        </section>
-        <!-- END FAQ -->
+                </div>
+            </div>
     </main>
     <!-- BEGIN FOOTER -->
     <footer id="sticky-footer" class="footer bg-dark text-white">
