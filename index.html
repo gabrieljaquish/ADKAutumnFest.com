@@ -39,29 +39,18 @@
     <meta property="og:site_name" content="AdkAutumnFest" />
 
 
-    <link rel="apple-touch-icon" sizes="57x57" href="images/icons.ico/">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-    <link rel="manifest" href="images/icons/manifest.json">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#210002">
+    <meta name="theme-color" content="#210002">
     <meta name="msapplication-TileColor" content="#610e04">
     <meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#610e04">
-
 
     <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/8d11e4091f.js"></script>
-
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -84,8 +73,8 @@
                 <a class="nav-item nav-link" href="./index.html#RSVP">RSVP</a>
                 <a class="nav-item nav-link" href="./index.html#CAMPING">Camping</a>
                 <a class="nav-item nav-link" href="./faq.html">FAQ</a>
-                <a class="nav-item nav-link" href="https://store.adkautumnfest.com">Store</a>
-                <a class="nav-item nav-link" href="./index.html#Contact">Contact</a>
+                <a class="nav-item nav-link" href="http://store.adkautumnfest.com">Store</a>
+                <!--a class="nav-item nav-link" href="./index.html#Contact">Contact</a-->
             </div>
         </div>
     </nav>
@@ -93,7 +82,8 @@
     <header class="header-parallax" id="parallax-header">
         <div class="parallax TheSky" id="TheSky" data-speed="-30"></div>
         <div class="TheStars" id="TheStars"></div>
-        <div class="parallax TheMoon" data-speed="-20"></div>
+        <img src="./images/moon-small.png" class="parallax TheMoon" height="100px" width="100px" data-speed="-20">>
+
 
         <div class="container-fluid parallax" data-speed="200" id="title">
             <div class="row">
@@ -111,7 +101,7 @@
         <div class="parallax Layer4" data-speed="70"></div>
         <div class="parallax Layer3" data-speed="50"></div>
         <div class="parallax Layer2" data-speed="30"></div>
-        <div class="parallax Layer1" data-speed="1"></div>
+        <div class="parallax Layer1" data-speed="-90"></div>
     </header>
 
     <!-- This no parallax header is ONLY shown on iPhone and iPad which dont load the interactive header and kind of suck.-->
@@ -428,7 +418,7 @@
         </section>
 
 
-        <!-- BEGIN CONTACT -->
+        <!-- BEGIN CONTACT
         <section id="CONTACT">
             <div class="container">
                 <div class="row">
@@ -438,7 +428,6 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -480,6 +469,7 @@
                 </div>
             </div>
         </section>
+    -->
         <!-- END CONTACT -->
         <!-- BEGIN FOOTER -->
         <footer class="bg-dark">

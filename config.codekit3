@@ -422,6 +422,104 @@
 		"oAP": "/faq.html",
 		"oF": 0
 		},
+	"/images/favicon_package_v0.16.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/favicon_package_v0.16.zip",
+		"oF": 0
+		},
+	"/images/favicons/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 38999,
+		"oA": 0,
+		"oAP": "/images/favicons/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 211276,
+		"oA": 0,
+		"oAP": "/images/favicons/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 34943,
+		"oA": 0,
+		"oAP": "/images/favicons/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/favicons/browserconfig.xml",
+		"oF": 0
+		},
+	"/images/favicons/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1993,
+		"oA": 0,
+		"oAP": "/images/favicons/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2906,
+		"oA": 0,
+		"oAP": "/images/favicons/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/favicons/favicon.ico",
+		"oF": 0
+		},
+	"/images/favicons/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 22504,
+		"oA": 0,
+		"oAP": "/images/favicons/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicons/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/favicons/site.webmanifest",
+		"oF": 0
+		},
 	"/images/header-sky-transition.jpg": {
 		"ft": 16384,
 		"iS": 415807,
@@ -845,8 +943,8 @@
 		"oA": 0,
 		"oAP": "/images/moon-small.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -872,6 +970,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/no-parallax-with-blue-sky.jpg": {
+		"ft": 16384,
+		"iS": 461660,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/no-parallax-with-blue-sky.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/no-parallax.png": {
 		"ft": 32768,
 		"iS": 582605,
@@ -882,6 +991,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/no-parallax.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/no-parallax.psd",
+		"oF": 0
 		},
 	"/images/Photos/AutumnTrees.jpg": {
 		"ft": 16384,
@@ -1384,7 +1501,7 @@
 	"creationDate": 587600668.00255704,
 	"displayValue": "2019AutumnFestWebsite",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-azure",
+	"iconImageName": "/images/favicons/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

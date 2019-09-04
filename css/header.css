@@ -54,7 +54,6 @@
  }
  
  .TheMoon {
-     background-image: url('../images/moon-small.png');
      position: absolute;
      left: 70vw;
      top: 90vh;
