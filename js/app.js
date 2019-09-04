@@ -14,10 +14,7 @@ function Parallax() {
             for (let i = 0; i < layers.length; i++) {
                 currentLayer = layers[i];
                 layerSpeed = currentLayer.getAttribute('data-speed');
-                let offset = ((this.pageYOffset * layerSpeed) / 100);
-
-                currentLayer.setAttribute('style', 'webkit-transform: translate3d(0px, ' + offset + 'px, 0px)');
-                currentLayer.setAttribute('style', 'transform: translate3d(0px, ' + offset + 'px, 0px)');
+                currentLayer.setAttribute('style', 'transform: translate3d(0px, ' + ((this.pageYOffset * layerSpeed) / 10) + 'px, 0px)');
             }
 
             //Hide Navbar
