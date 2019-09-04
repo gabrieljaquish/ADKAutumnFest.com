@@ -39,7 +39,7 @@ html {
 body {
     font-family: "National Park Thin";
     text-align: left;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
 }
 
@@ -113,6 +113,8 @@ h5 {
 /* END Nav Bar */
 
 main {
+    position: absolute;
+    top: 100vh;
     /* this allows the section to sit below the header */
     min-width: 100vw;
     z-index: 1;
@@ -126,7 +128,7 @@ section {
     color: white;
     min-height: 100vh;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .logo {
