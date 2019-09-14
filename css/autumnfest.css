@@ -179,6 +179,10 @@ section {
     background-color: #a14135;
 }
 
+#HOTELS a {
+    color: #FFF;
+}
+
 #EVENTS {
     background-color: rgba(30, 30, 30, 1);
 }
