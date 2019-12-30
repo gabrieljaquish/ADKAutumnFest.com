@@ -1,5 +1,5 @@
-# 2019 Autumn Festival Website
-2019 Autumn Festival Registration Website
+# 2020 Autumn Festival Website
+Source of the 2020 Autumn Festival Registration Website.
 
 ## Hosting
 The production side of AdkAutumnfest.com is hosted on Amazon AWS S3 in conjunction with Amazon CloudFront CDN and Amazon Route 53 Intellegent DNS Resolution. 
